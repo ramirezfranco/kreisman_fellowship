@@ -1,0 +1,21 @@
+{
+	"total_population":"S0101_C01_001E",
+	"average_household_size":"S1101_C01_002E",
+	"Population_18_24":"S1401_C01_029E",
+	"enrolled_college_graduate_18_24":"S1401_C01_030E",
+	"percentage_enrolled_school":"S1401_C02_001E",
+	"percentage_enrolled_college_grad_18_24":"S1401_C02_030E",
+	"percentage_18_24_less_highschool":"S1501_C02_002E",
+	"percentage_25+_no_diploma":"S1501_C02_008E",
+	"percentage_25+_highschoolorhigher":"S1501_C02_014E",
+	"percentage_24+_bachelororhigher":"S1501_C02_015E",
+	"percentage_5+_other_language":"S1601_C02_003E",
+	"percent_poverty":"S1701_C03_001E",
+	"percent_with_disability":"S1810_C03_001E",
+	"household_mean_income":"S1901_C01_012E",
+	"percent_households_foodstamps":"S2201_C02_001E",
+	"emp_ratio_over16":"S2301_C03_001E",
+	"pecent_insured":"S2701_C03_001E",
+	"percent_household_with_coputer":"S2801_C02_002E",
+	"percent_household_with_internet":"S2801_C02_012E"
+}
