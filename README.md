@@ -1,4 +1,4 @@
-# Building Abandoment in the City of Chicago
+# Building abandonment in the City of Chicago
 In this repository, you will find all the code and results of the home abandonment project in Chicago.
 
 ## Objective
@@ -171,24 +171,24 @@ With the prediction probabilities by tract, it is possible to create a map of ri
 
 ## Description of files and folders
 ### Files
-- acs_variables.ipynb: Jupyter notebook with the resquests of ACS5 variables for the period 2012 - 2017.
+- acs_variables.ipynb: Jupyter notebook with the requests of ACS5 variables for the period 2012 - 2017.
 - acs_variables.json: List of ACS5 variables considered.
 - chi_dataportal_example.ipynb: Jupyter notebook with a couple of examples of requests of CCDP variables.
 - classifiers.py: Python file with functions to train and tune ML models, and present results.
-- crime.ipynb: Jupyter notebook with the requests of the different types of crimes from Chicago Data Portal. 
+- crime.ipynb: Jupyter notebook with the requests of the different types of crimes from the Chicago Data Portal. 
 - data_preparation.ipynb: Jupyter notebook where the datasets are prepared.
 - dataportal.json: List of CCDP variables considered.
-- models.ipynb: Jupyter notebook where the splist were created and the models trained and tuned, and used to produce predictions.
-- mp_points_in_polygon.py: Multiprocessing program to find the polygons where a group of point are located.
-- util.py: Pyton file with auxiliary functions to make requests, clean and pre-process data.
+- models.ipynb: Jupyter notebook where the splits were created, and the models trained and tuned, and used to produce predictions.
+- mp_points_in_polygon.py: Multiprocessing program to find the polygons within a group of points is located.
+- util.py: Python file with auxiliary functions to make requests, clean, and pre-process data.
 ### Folders
 
-The folders in the public version of this repository does not contains all the files used in the project, due to size issues. 
+The folders in the public version of this repository do not contain all the files used in the project due to size issues. 
 - clean_data: Data used to train and tune the ML models. The local version of the repository contains intermediate files used during the pre-processing and cleaning part.
 - maps: 
     - pred_maps.qgz: QGIS project to create maps with results.
-    - pred_map_2019_upper.png: Map with the 10% of the census tracts with the higher propability of building abandonment.
+    - pred_map_2019_upper.png: Map with 10% of the census tracts with the highest probability of building abandonment.
     - pred_map_2019_tuned.png: Map with results.
-    - abandoned_build_year.png: Map with the available building abandoment reports from 2001 to date.
-- raw_data: Data obatained from the API requests. In this case only one example is included.
+    - abandoned_build_year.png: Map with the available building abandonment reports from 2001 to date.
+- raw_data: Data obtained from the API requests. In this case, only one example is included.
 
