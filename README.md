@@ -2,7 +2,7 @@
 In this repository, you will find all the code and results of the home abandonment project in Chicago.
 
 ## Objective
-Identify the most critical predictors of building abandonment in the City of Chicago at the census tract level using machine learning models and data from the American Comunity Survey and the Chicago Data Portal.
+Identify the most critical predictors of building abandonment in the City of Chicago at the census tract level using machine learning models and data from the American Community Survey and the Chicago Data Portal.
 
 ## Methods
 The work is divided into four groups of activities:
@@ -12,7 +12,7 @@ The work is divided into four groups of activities:
 4. Producing results.
 
 ### 1. Getting the data
-The two primary sources of the data used in this exercise are the City of Chicago Data Portal (CCDP) and the American Comunity Survey (ACS5). Both sources have their API that allows us to get the data using Python code directly. The variables from the ACS5 are available at the census tract level every year, and most of them presented as percentage rates. On the other hand, the variables that come from the CCDP are georeferenced administrative records. The period considered for this exercise is 2012 - 2017.
+The two primary sources of the data used in this exercise are the City of Chicago Data Portal (CCDP) and the American Community Survey (ACS5). Both sources have their API that allows us to get the data using Python code directly. The variables from the ACS5 are available at the census tract level every year, and most of them presented as percentage rates. On the other hand, the variables that come from the CCDP are georeferenced administrative records. The period considered for this exercise is 2012 - 2017.
 
 Data from the ACS5 was obtained using a URL request per year. This task was performed in *acs_variables.ipynb* file using the function "variable_df" from the util.py file.
 
@@ -111,7 +111,7 @@ In this study,  we used three different ML models: logistic regression, Random F
 
 The code for this section could be found in the *models.ipynb* file, and the auxiliary functions in classifiers.py.
 
-We trained every model using the three splits created and computed the following metrics: Accuracy, Precision, Recall, AUC, and F1. Then, Iwecalculate the average of the metrics of the three splits. Considering the nature of the building abandonment problem, in this case, we used the AUC metric to choose the best model. The following table presents the top 5 models with the best performance:
+We trained every model using the three splits created and computed the following metrics: Accuracy, Precision, Recall, AUC, and F1. Then, we calculate the average of the metrics of the three splits. Considering the nature of the building abandonment problem, in this case, we used the AUC metric to choose the best model. The following table presents the top 5 models with the best performance:
 <table class="tg">
   <tr>
     <th class="tg-uzvj">Model</th>
